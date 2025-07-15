@@ -1,0 +1,40 @@
+# === Python-related ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# === Virtual Environment ===
+eyekit-env/
+venv/
+.venv/
+
+# === IDE/Editor ===
+.vscode/
+*.code-workspace
+
+# === Environment Files ===
+.env
+.env.*
+
+# === OS-generated ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# === Log and cache files ===
+*.log
+*.cache
+
+# === Alignment or temp images ===
+alignment_images/
+trial1_eyekit.png
+
+# === (Optional) Ignore all PNGs EXCEPT stimuli_screenshots ===
+Uncomment the next two lines *only* if you want to ignore all other PNGs
+*.png
+!stimuli_screenshots/*.png
+
+# === (Optional) Ignore CSV if it's output-only ===
+fixations.csv
